@@ -14,7 +14,21 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
-  }
+  },
+  {
+    path: 'ionbutton',
+    loadChildren: () => import('./ionButton/ionButton.module').then(m => m.IonButtonPageModule)
+  },
+  {
+    path: 'ionActionSheet',
+    loadChildren: () => import('./ionActionSheet/ionActionSheet.module').then(m => m.IonActionSheetPageModule)
+  },
+  {
+    path: 'ionAlert',
+    loadChildren: () => import('./ionAlert/ionAlert.module').then(m => m.IonAlertPageModule)
+  },
+  { path: 'ion-card', loadChildren: './ion-card/ion-card.module#IonCardPageModule' },
+  { path: 'ion-badge', loadChildren: './ion-badge/ion-badge.module#IonBadgePageModule' }
 ];
 
 @NgModule({

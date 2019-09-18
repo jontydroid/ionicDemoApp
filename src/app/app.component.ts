@@ -20,6 +20,31 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'ion-Button',
+      url: '/ionbutton',
+      icon: 'list'
+    },
+    {
+      title: 'ion-ActionSheet',
+      url: '/ionActionSheet',
+      icon: 'list'
+    },
+    {
+      title: 'ion-Alert',
+      url: '/ionAlert',
+      icon: 'list'
+    },
+    {
+      title: 'ion-card',
+      url: '/ion-card',
+      icon: 'list'
+    },
+    {
+      title: 'ion-badge',
+      url: '/ion-badge',
+      icon: 'list'
     }
   ];
 
